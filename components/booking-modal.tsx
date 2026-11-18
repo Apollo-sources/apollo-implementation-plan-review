@@ -28,8 +28,8 @@ export function BookingModal() {
         <button className="dialog-close" onClick={() => setOpen(false)} aria-label="Close dialog"><X /></button>
         <span className="eyebrow">A GOOD PLACE TO START</span>
         <h2 id="booking-title">Let&apos;s talk about what&apos;s possible.</h2>
-        <p className="muted">This prototype booking flow is not connected to a calendar yet. Reach out to Marcus to plan a conversation.</p>
-        <Link className="button-secondary" href="/contact" onClick={() => setOpen(false)}>Contact Marcus <ArrowUpRight aria-hidden="true" /></Link>
+        <p className="muted">This prototype booking flow is not connected to a calendar yet. Reach out to Behzad to plan a conversation.</p>
+        <Link className="button-secondary" href="/contact" onClick={() => setOpen(false)}>Contact Behzad <ArrowUpRight aria-hidden="true" /></Link>
         <p className="dialog-note">No email capture · No commitment</p>
       </div>
     </dialog>

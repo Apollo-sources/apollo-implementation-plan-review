@@ -6,7 +6,7 @@ Build a polished, responsive Apollo AI-agency landing page prototype focused on 
 ## 2. FILES
 - `IMPLEMENTATION_KICKSTART.md` — This approved-scope implementation plan and proposed design tokens.
 - `app/page.tsx` — Landing-page composition and metadata entry point.
-- `app/contact/page.tsx` — Contact page for Marcus; no email-capture form.
+- `app/contact/page.tsx` — Contact page for Behzad; no email-capture form.
 - `app/globals.css` — Semantic design tokens, base styles, responsive utilities, and reduced-motion support.
 - `app/layout.tsx` — Geist font setup, global metadata defaults, and shared page shell.
 - `lib/content.ts` — Centralized prototype copy, FAQ entries, demo scripts, testimonials, and placeholder labels.
@@ -33,7 +33,7 @@ Keep components cohesive and generally below roughly 600 lines; split earlier wh
 2. Establish the design tokens below in semantic CSS variables and connect Geist typography through the project’s supported font setup.
 3. Build the shared layout, responsive header/footer, CTA modal, and animation primitives.
 4. Implement the landing sections in the agreed order, using centralized example content and generated imagery rather than broken/empty image placeholders.
-5. Implement the Contact page for Marcus, smooth in-page navigation/back-to-top, demo interactions, FAQ filtering/accordion, and mobile sticky CTA behavior.
+5. Implement the Contact page for Behzad, smooth in-page navigation/back-to-top, demo interactions, FAQ filtering/accordion, and mobile sticky CTA behavior.
 6. Add SEO metadata, Open Graph defaults, semantic landmarks, accessible labels/alt text, and reduced-motion handling.
 7. Validate desktop, tablet, and mobile layouts; inspect contrast and adjust text/token values if needed while retaining the dark theme and accent intent.
 8. Start and present the app preview, then verify key navigation and modal behavior in the browser. Treat metrics, testimonials, integrations, and operational claims as illustrative prototype content.
@@ -75,8 +75,8 @@ Use the specified dark palette and one warm accent; do not introduce gradients, 
 - Example social proof, case studies, results, and claims can be mistaken for real endorsements. Mark them conspicuously as examples and keep them replaceable.
 - The strategy-call modal needs a defined prototype interaction that does not imply a booking was completed or collect email addresses. Keep it clearly illustrative until a real booking flow is selected.
 - Scroll-triggered animation and sticky elements can harm accessibility/usability; honor reduced motion and test keyboard/focus interactions.
-- No exact contact details, Marcus’s role/contact method, or booking URL have been supplied; use clearly identified prototype copy rather than inventing real contact details.
+- No exact contact details, Behzad’s role/contact method, or booking URL have been supplied; use clearly identified prototype copy rather than inventing real contact details.
 - SEO metadata can be implemented, but canonical domain, final description, and social image may need replacement before launch.
 
 ## 8. QUESTIONS
-No blocking questions for the prototype implementation. Use reasonable defaults and keep unresolved business details visibly marked as replaceable examples. Confirm Marcus’s real contact details, booking destination, and approved claims before launch; this plan does not invent them.
+No blocking questions for the prototype implementation. Use reasonable defaults and keep unresolved business details visibly marked as replaceable examples. Confirm Behzad’s real contact details, booking destination, and approved claims before launch; this plan does not invent them.
