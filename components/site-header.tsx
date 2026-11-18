@@ -28,7 +28,7 @@ export function SiteHeader() {
         <div className="header-actions"><PrimaryCTA label="Book a call" location="header" /><button className="menu-toggle" aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} aria-controls="mobile-menu" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button></div>
       </div>
       <nav id="mobile-menu" className={`mobile-menu ${menuOpen ? 'mobile-menu-open' : ''}`} aria-label="Mobile navigation" aria-hidden={!menuOpen}>
-        {[...navigation, { label: 'Contact Marcus', href: '/contact' }].map((item) => <Link key={item.href} href={item.href.startsWith('#') ? `/${item.href}` : item.href} onClick={() => setMenuOpen(false)} tabIndex={menuOpen ? 0 : -1}>{item.label}</Link>)}
+        {[...navigation, { label: 'Contact Behzad', href: '/contact' }].map((item) => <Link key={item.href} href={item.href.startsWith('#') ? `/${item.href}` : item.href} onClick={() => setMenuOpen(false)} tabIndex={menuOpen ? 0 : -1}>{item.label}</Link>)}
         <PrimaryCTA label="Book a strategy call" location="header" />
       </nav>
     </header>
